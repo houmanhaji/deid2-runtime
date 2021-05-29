@@ -5,7 +5,7 @@ ENV LANG=C.UTF-8 LC_ALL=C.UTF-8
 ENV TZ=UTC
 ARG DEBIAN_FRONTEND=noninteractive
 
-ARG CPU_OR_GPU=gpu
+ARG CPU_OR_GPU=cpu
 
 RUN apt-get update --fix-missing && \
     apt-get install --no-install-recommends -y \

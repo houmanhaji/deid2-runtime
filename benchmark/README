@@ -1,0 +1,17 @@
+This program is developed for the NIST differential privacy temporal map challenge
+
+dependencies for this python script are limited to the following:
+Python 3.8
+json
+numpy
+diffprivlib 
+
+To run the program, please place these files in the following directory::
+/codeexecution/data/parameters.json
+/codeexecution/data/ground_truth.csv
+
+The program outputs a single file called:
+/codeexecution/submission/submission.csv
+
+
+Thank you!
